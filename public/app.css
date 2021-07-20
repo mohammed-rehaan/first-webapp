@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    text-shadow: 0  0.1rem 1.5rem rgb(0, 0, 0);
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(0, 0, 0);
+    background-image: url('https://images.unsplash.com/photo-1532906619279-a4b7267faa66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
+    background-size:cover;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+h1{
+    margin-top: 100px;
+    margin: 0;
+    color:rgb(0, 0, 0);
+    text-shadow: 0  0.1rem 0.40rem rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+h2{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0  0.1rem 0.40rem rgb(255, 255, 255);
+}
+
+p{
+    font-weight: 70;
+    text-shadow: none;    
+}
+
+.form{
+    border: none;
+    border-bottom: 0.08em solid rgb(55, 58, 255);
+    background: transparent;
+    font-size: 1.5em;
+    margin-top: 0.01rem;
+    width: 350px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+input[type=text]:focus{
+    outline :none;
+}
+button{
+    background: transparent;
+    border-color: rgb(0, 0, 0);
+    border-width: 0.1em;
+    border-radius: 0.6em;
+    font-size: 18px;
+    box-shadow: 0 0.2rem 0.2rem rgb(0, 0, 0);
+    opacity: 0.85;    
+}
